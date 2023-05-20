@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Megovka fast</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" class="svg-hidden">
+    <defs>
+      <symbol id="icon_gallery" viewbox="0 0 13.083 13.714">
+        <path d="M10.397 6.047a.56.56 0 0 0-1.122 0 .56.56 0 0 0 1.122 0Zm.832 0c0 .765-.625 1.387-1.393 1.387a1.392 1.392 0 0 1-1.393-1.387 1.392 1.392 0 0 1 2.786 0ZM.968 12.87h11.135a.146.146 0 0 0 .147-.135v-.874L9.28 8.985l-1.215 1.21.678.676a.414.414 0 0 1 0 .58.423.423 0 0 1-.554.026l-.024-.021L3.39 6.699.832 9.246v3.477c0 .078.058.14.136.147ZM12.25 4.215a.145.145 0 0 0-.147-.147H.98a.146.146 0 0 0-.147.135v3.868l2.251-2.243a.395.395 0 0 1 .291-.118.4.4 0 0 1 .266.094l.022.02 3.805 3.79 1.506-1.513a.415.415 0 0 1 .291-.118c.1 0 .194.034.267.095l.021.02 2.697 2.62V4.215Zm.833-.002v8.525a.973.973 0 0 1-.945.975H.98a.974.974 0 0 1-.98-.94V4.215c0-.529.415-.957.944-.976h11.159c.53 0 .96.413.98.94v.034ZM2.862.815h7.373a.41.41 0 0 0 .409-.407.42.42 0 0 0-.41-.408H2.863a.409.409 0 0 0-.41.409.41.41 0 0 0 .41.406ZM1.227 2.027a.41.41 0 0 1 .379-.406l.03-.001h9.812c.218 0 .409.19.409.407a.41.41 0 0 1-.38.406l-.028.001H1.636a.409.409 0 0 1-.41-.407Z"/>
+      </symbol>
+      <symbol id="icon_read-more" viewbox="0 0 14 14">
+        <path d="m9.754 7.402-3.813 3.804a.563.563 0 0 1-.8 0l-.786-.783a.563.563 0 0 1 0-.8L6.979 7 4.355 4.374a.563.563 0 0 1 0-.8l.786-.785a.563.563 0 0 1 .8 0l3.813 3.814a.563.563 0 0 1 0 .8M11.813 0H2.187A2.194 2.194 0 0 0 0 2.188v9.624C0 13.017.984 14 2.188 14h9.624A2.194 2.194 0 0 0 14 11.812V2.188A2.194 2.194 0 0 0 11.812 0"/>
+      </symbol>
+    </defs>
+  </svg>
+  
+  <div class="megovka">
+    <div class="article">
+      <h1 class="article__title">Nejsilnější tornádo v&nbsp;moderní historii Česka</h1>
+      <ul class="article__list">
+        <li class="article__item"><a class="article__item--link" href="#"><h2 class="article__item--subtitles">At magnum periculum adiit in oculis quidem rerum necessitatibus saepe</h2></a></li>
+        <li class="article__item"><a class="article__item--link" href="#"><h2 class="article__item--subtitles">Filium morte multavit si sine metu contineret, saluti prospexit civium</h2></a></li>
+        <li class="article__item"><a class="article__item--link" href="#"><h2 class="article__item--subtitles">At vero eos et quasi naturalem atque insitam in malis dolor, non existimant oportere</h2></a></li>
+      </ul>
+    </div>
+
+    <div class="gallery" id="gallery">
+      <img class="gallery__picture" src="gallery/image-placeholder.png" alt="image-placeholder" title="image-placeholder">
+      <div class="gallery-grid overlay">
+        <h3 class="gallery__title">
+          <svg class="icon_gallery">
+            <use xlink:href="#icon_gallery"></use>
+          </svg>
+          Fotogalerie</h3>
+        <a href="#" class="gallery__button" id="gallery__button">zobrazit <span class="bold">21</span> fotografii</a>
+      </div>
+    </div>
+
+    <div class="online" id="online">
+      <h3 class="online__title">Sledujeme online</h3>
+      <p class="online__message"><span class="online__time">22:15</span> Ut placet, inquam tum dicere exorsus est cur nec segniorem ad eam non possim accom modare torquatos nostros quos dolores.</p>
+      <p class="online__message"><span class="online__time">22:08</span> At magnum periculum adiit in quo pertineant non intellegamus, tu.</p>
+      <p class="online__message"><span class="online__time">22:02</span> Epicurus in culpa, qui dolorem ipsum, quia voluptas assumenda est, necesse est, quid et quale sit voluptatem sequi nesciunt, neque.</p>
+      <div class="online__button">
+      <a href="#" class="online__button--text" id="online__button--text">Zobrazit více
+        <svg class="icon_read-more">
+          <use xlink:href="#icon_read-more"></use>
+        </svg>
+      </a>
+      </div>
+    </div>
+  </div>
+  
+  <script type="module" src="./js/script.js"></script>
+</body>
+</html>
