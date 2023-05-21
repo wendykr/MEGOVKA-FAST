@@ -1,6 +1,6 @@
 # MEGOVKA FAST
 
-Referenční úkol pro výběrové řízení HTML/CSS kodér.
+Referenční úkol pro výběrové řízení HTML & CSS kodér.
 
 - [Zadání](#Zadání)
 - [Rozsah a realizace](#Rozsah-a-realizace)
