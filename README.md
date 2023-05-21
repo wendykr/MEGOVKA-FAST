@@ -8,7 +8,10 @@ Referenční úkol pro výběrové řízení HTML & CSS kodér.
 
 
 ## Zadání
-Nakódovat dodaný segment stránky (dále jen box), podle zadání v podobě grafického návrhu vyexportovaného v módu pro vývojáře z Invision. Jedná se o světle podbarvený box "Nejsilnější tornádo..." bez ohledu zbytku (okolí) stránky.
+Nakódovat dodaný segment stránky (dále jen box), podle zadání v podobě grafického návrhu vyexportovaného v módu pro vývojáře z Invision.
+\
+Jedná se o světle podbarvený box "Nejsilnější tornádo..." bez ohledu zbytku (okolí) stránky.
+\
 Výstupem bude ZIP soubor, ve kterém bude: HTML, CSS i všechny případné soubory.
 
 Screenshot grafického návrhu stránky najdete na *[desktop-design.png](./design/desktop-design.png)*
